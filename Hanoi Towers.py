@@ -32,7 +32,7 @@ while True:
     
      # Check whether the user's input is valid (in this case, a positive integer). If the user has entered a letter, a punctation mark, a symbol, a non-integer number, zero, or a negative number, prompt the user to enter a valid input
     if not num_of_disks.isdigit() or int(num_of_disks) <= 0:
-        print("Invalid entry, please enter an integer number greater than zero.")
+        print("Invalid entry, please enter an integer greater than zero.")
         continue
     else:
         # Convert the user's input into an integer, as the input itself is a string by default
@@ -52,4 +52,5 @@ peg_aux = input("Enter the name of the auxiliary peg\n")
 hanoi_towers(num_of_disks, peg_start, peg_dest, peg_aux)
 
 # In the end, prompt the user to press Enter, in order to exit the program
+
 input("Press Enter to exit the program")
