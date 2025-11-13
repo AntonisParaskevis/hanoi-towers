@@ -18,15 +18,15 @@ Click the Code button, then click on "Download ZIP"
 
 OR
 
-Click the Hanoi Towers.py file, then click on the Download Raw File button
+Click the Hanoi Towers.py file, then click on the Download Raw File button.
 
-# Usage
+# How to Use
 1. Enter the number of disks. It must be a positive integer. Then, press Enter.
 2. Enter the name of the starting peg. Then, press Enter.
 3. Enter the name of the destination peg. Then, press Enter.
 4. Enter the name of the auxiliary peg. Then, press Enter.
 5. The steps for solving the puzzle will be displayed on screen.
-6. Finally, press Enter to exit the program
+6. Finally, press Enter to exit the program.
 
 # License
 MIT License © 2025 Antonis Paraskevis
